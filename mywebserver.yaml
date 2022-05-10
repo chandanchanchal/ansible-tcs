@@ -1,0 +1,5 @@
+---
+- hosts: webserver
+roles:
+  - role: "myapache"
+  become: true
