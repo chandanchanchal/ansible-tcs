@@ -1,3 +1,5 @@
+# This file should be inside roles directory . Same place we should create inventory file too then run the below cmd
+# ansible-playbook mywebserver.yaml -i inventory --ask-become-pass
 ---
 - hosts: webserver
 roles:
