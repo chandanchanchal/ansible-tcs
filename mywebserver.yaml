@@ -2,6 +2,6 @@
 # ansible-playbook mywebserver.yaml -i inventory --ask-become-pass
 ---
 - hosts: all
-roles:
+  roles:
   - role: "myapache"
   become: true
